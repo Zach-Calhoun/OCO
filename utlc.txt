@@ -1,0 +1,20 @@
+OCO - One char ops
+
+Load 
+Move
+Increase
+Add
+Decrease
+Subtract
+Jump 
+GoTo
+Jumpzero
+GoZero
+Print
+Read
+End
+Nand
+
+
+
+
