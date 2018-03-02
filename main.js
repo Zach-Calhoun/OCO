@@ -15,8 +15,45 @@ samples = [
 			"I 2 1 "+
 			"J 9 "+
 			"P 2 E",
+		description:"",},
+		{
+		title:"Decimal Print Test",
+		src:"L 0 100 \n"+
+			 "L 1 100 \n"+
+			 "L 2 10 \n"+
+			 "L 3 0 \n"+
+			 "L 4 0 \n"+
+			 "L 5 0 \n"+
+			 "L 6 2 \n"+
+			 "L 7 0 \n"+
+			 
+			 "Z 1 43 \n"+
+			 "S 1 2 0 \n"+
+			 "U 1 39 \n"+
+			 "I 3 1 \n"+
+			 "J 27 \n"+
+			 
+			 "A 1 2 4 \n"+
+			 "I 5 1 \n"+
+			 "A 6 5 7 \n"+
+			 "A 4 48 4 \n"+
+			 "M 4 6 \n"+
+			 "L 4 0 \n"+
+			 "L 3 0 \n"+
+			 "L 1 0 \n"+
+			 "Z 3 74 \n"+
+			 "A 1 3 1 \n"+
+			 "J 39 \n"+
+			 
+			 "Z 5 90 \n"+
+			 "T 0 7 \n"+
+			 "D 6 1 \n"+
+			 "D 5 1 \n"+
+			 "P 0 \n"+
+			 "J 74 \n"+
+			 "E E \n",	 
 		description:"",}
-]
+]	
 	
 //division test
 src = 

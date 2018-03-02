@@ -14,8 +14,15 @@ function operationsFactory() {
 		code: 1,
 		executor: null,
 		args: 2,
-		description: 'M A B - Loads adress A with value at adress B',
+		description: 'M A B - Copys value at adress A into adress at adress B',
 	},
+	ops.take = {
+		token: 'T',
+		code: 17,
+		executor: null,
+		args: 2,
+		description: 'T A B - Loads adress A with value from adress stored at adress B'
+	}
 	ops.increase = {
 		token: 'I', 
 		code: 2,

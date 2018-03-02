@@ -26,10 +26,16 @@ function vmFactory() {
 		mem[adress] = value;
 		vm.pc += 1 + ops.load.args;
 	};
-	ops.move.executor = function(dest, src) {
-		mem[dest] = mem[src];
+	ops.move.executor = function(src, dest) {
+		var adr = mem[dest];
+		mem[adr] = mem[src];
 		vm.pc += 1 + ops.move.args;
 	};
+	ops.take.executor = function(dst, src) {
+		var adr = mem[src];
+		mem[dst] = mem[adr];
+		vm.pc += 1 + ops.take.args;
+	}
 	ops.increase.executor = function(a,b){
 		mem[a] = mem[a] + b;
 		vm.pc += 1 + ops.increase.args;

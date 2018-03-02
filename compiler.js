@@ -153,6 +153,10 @@ function compiler()
 							bytecode = ops.jumpNegative.code;
 							expectedArgs = ops.jumpNegative.args;
 						}
+						case ops.take.token: {
+							bytecode = ops.take.code;
+							expectedArgs = ops.take.args;
+						}
 					}
 				}
 			}
